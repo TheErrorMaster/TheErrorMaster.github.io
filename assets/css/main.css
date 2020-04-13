@@ -2632,6 +2632,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.fit video {
+				width: 100%;
+			}
+
 		.image.main {
 			display: block;
 			margin: 4rem 0;
