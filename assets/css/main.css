@@ -3497,6 +3497,13 @@ input, select, textarea {
 
 /* Header */
 
+div > video {
+	position: relative;
+	width: 100%;
+	top: 0;
+	height: auto;
+}
+
 .video-container {
 	position: absolute;
 	top:0;
