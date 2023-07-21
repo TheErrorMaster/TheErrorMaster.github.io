@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3288,9 +3282,8 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
-		/* padding: 0 20px; */
+		color: #000;
+		padding-bottom: 4rem;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3315,7 +3308,7 @@ input, select, textarea {
 		cursor: default;
 		text-align: center;
 		z-index: 1;
-		min-height: 100vh;
+		/* min-height: 100vh; */
 	}
 
 		#intro input, #intro select, #intro textarea {
@@ -3457,8 +3450,9 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 4rem 4rem 2rem 4rem ;
-				min-height: 90vh;
+				/* padding: 4rem 4rem 2rem 4rem ;
+				min-height: 90vh; */
+				padding-bottom: 0rem;
 			}
 
 				#intro p br {
@@ -3474,8 +3468,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				/* padding: 3rem 2rem 1rem 2rem ;
+				min-height: 80vh; */
+				padding-bottom: 0rem;
 			}
 
 				#intro h1 {
@@ -3637,7 +3632,7 @@ div > video {
 /* Nav */
 
 	#nav {
-		color: #ffffff;
+		color: #000;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3702,11 +3697,11 @@ div > video {
 
 		#nav code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #000;
 		}
 
 		#nav hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #000;
 		}
 
 		#nav ul.links {
@@ -4527,7 +4522,7 @@ div > video {
 		top: 0.75rem;
 		right: 0.75rem;
 		border: 0;
-		color: #ffffff;
+		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
